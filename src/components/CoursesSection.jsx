@@ -14,7 +14,7 @@ export default function CoursesSection({ courses }) {
             <Card className="h-100 shadow-sm">
               <Card.Img
                 variant="top"
-                src={`/images/${course.image.split("/").pop()}`}
+                src={`images/${course.image}`}
                 alt={course.title}
                 style={{ height: "200px", objectFit: "cover" }}
               />
